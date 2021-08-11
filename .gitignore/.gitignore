@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+typedef struct stu
+{
+  char name[20];
+  short age;
+  char num[11];
+}stu;
+
+int main()
+{
+	stu s1 = {"Lubenwei",21,"666666"};
+  	printf("%s\n",s1.name);
+  	return 0;
+} 
